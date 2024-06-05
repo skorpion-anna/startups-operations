@@ -26,6 +26,8 @@ repos:
   - repo: https://github.com/nbQA-dev/nbQA
     rev: "1.8.5"
     hooks:
+      - id: nbqa-black
+        additional_dependencies: [jupytext]
       - id: nbqa-pyupgrade
         args: ["--py37-plus"]
       - id: nbqa-isort
