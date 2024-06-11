@@ -7,6 +7,9 @@
 # Ruff Cache
 .ruff_cache
 
+# Catboost Info
+catboost_info
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
